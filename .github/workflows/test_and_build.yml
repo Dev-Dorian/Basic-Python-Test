@@ -40,4 +40,4 @@ jobs:
       uses: docker/build-push-action@v6
       with:
         push: true
-        tags: ghcr.io/${{ github.repository_owner }}/basic-python-test:latest
+        tags: ghcr.io/dev-dorian/basic-python-test:latest
